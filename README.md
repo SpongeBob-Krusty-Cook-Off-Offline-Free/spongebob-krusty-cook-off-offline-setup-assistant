@@ -60,18 +60,6 @@
 ![Cooking Gameplay](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNxoOuZYKanoJXGphRlLHctB-TPJcB5byFQ&s)
 *Master the Krabby Patty formula in SpongeBob's kitchen*
 
-### 🏪 Restaurant Management
-![Restaurant View](https://i.imgur.com/placeholder-restaurant.png)
-*Design and manage your underwater restaurant empire*
-
-### 🎮 Character Selection
-![Character Menu](https://i.imgur.com/placeholder-characters.png)
-*Play as your favorite Bikini Bottom residents*
-
-### 🎬 Gameplay Video
-[![Gameplay Trailer](https://i.imgur.com/placeholder-video-thumb.png)](https://youtube.com/watch?v=placeholder)
-*Watch SpongeBob cooking action in 4K quality*
-
 ## 🕹️ How to Play - Quick Start Guide
 
 ### 🚀 Installation Steps

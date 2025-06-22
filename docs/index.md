@@ -94,14 +94,6 @@ SpongeBob: Krusty Cook-Off is the ultimate time-management cooking game set in t
 ![Cooking Interface](https://i.imgur.com/cooking-interface.png)
 *Master the Krabby Patty formula with SpongeBob*
 
-### 🏪 Restaurant Management
-![Restaurant View](https://i.imgur.com/restaurant-management.png)
-*Design and manage your underwater restaurant empire*
-
-### 🎮 Character Selection
-![Character Menu](https://i.imgur.com/character-selection.png)
-*Play as your favorite Bikini Bottom residents*
-
 ---
 
 ## 📚 Documentation
