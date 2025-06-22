@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/assets/images/spongebob-banner.png</image:loc>
+      <image:title>SpongeBob Krusty Cook-Off Setup Assistant</image:title>
+      <image:caption>Offline setup assistant for SpongeBob Krusty Cook-Off game</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Download Page -->
+  <url>
+    <loc>https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant/releases/latest</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Installation Guide -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/installation</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Quick Start Guide -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/quickstart</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Troubleshooting -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/troubleshooting</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/faq</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- System Requirements -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/requirements</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Configuration Guide -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/configuration</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Game Controls -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/controls</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Backup & Restore -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/backup</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Performance Tips -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/performance</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Community Guidelines -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/community</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Contributing Guide -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/contributing</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Changelog -->
+  <url>
+    <loc>https://spongebob-krusty-cook-off-offline-free.github.io/spongebob-krusty-cook-off-offline-setup-assistant/changelog</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- GitHub Repository -->
+  <url>
+    <loc>https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- GitHub Issues -->
+  <url>
+    <loc>https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant/issues</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- GitHub Discussions -->
+  <url>
+    <loc>https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant/discussions</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- GitHub Releases -->
+  <url>
+    <loc>https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant/releases</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Support & Community URLs -->
+  <url>
+    <loc>https://discord.gg/spongebob-cooking</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset> 

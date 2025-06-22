@@ -1,0 +1,403 @@
+# 🧽 SpongeBob Setup Assistant - Git Ignore Rules
+
+# ===========================================
+# 🚫 NEVER COMMIT THESE - SECURITY CRITICAL
+# ===========================================
+
+# GitHub Credentials & API Keys
+.internal/GITHUB_CREDENTIALS.md
+**/GITHUB_CREDENTIALS.md
+*.token
+*.key
+*.secret
+.env
+.env.local
+.env.production
+
+# Personal Information
+**/personal/
+**/private/
+**/credentials/
+
+# ===========================================
+# 🏗️ Build & Distribution Files
+# ===========================================
+
+# Setup Assistant Executables
+dist/
+build/
+out/
+target/
+releases/
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.appx
+
+# Compiled Binaries
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# ===========================================
+# 💻 Operating System Files
+# ===========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+*~
+.nfs*
+.directory
+
+# ===========================================
+# 🛠️ Development Tools
+# ===========================================
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+.atom/
+
+# Debugging
+*.log
+*.logs
+logs/
+debug.log
+error.log
+crash.log
+
+# ===========================================
+# 📦 Package Managers
+# ===========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+*.exe
+*.exe~
+*.test
+*.prof
+vendor/
+
+# C/C++
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.smod
+*.lai
+*.la
+*.a
+*.lib
+
+# ===========================================
+# 🎮 Game-Specific Files
+# ===========================================
+
+# Game Installation Files
+game_files/
+spongebob_game/
+krusty_cookoff/
+*.obb
+*.pak
+*.unity3d
+
+# User Configurations
+config/
+settings/
+user_data/
+save_games/
+profiles/
+
+# Temporary Game Files
+*.cache
+*.temp
+*.bak
+*.backup
+
+# ===========================================
+# 📊 Analytics & Metrics
+# ===========================================
+
+# Analytics Data
+analytics/
+metrics/
+usage_stats/
+telemetry/
+
+# Error Reports
+crashes/
+error_reports/
+diagnostic_data/
+
+# ===========================================
+# 🧪 Testing Files  
+# ===========================================
+
+# Test Results
+test_results/  
+coverage/
+*.coverage
+htmlcov/
+.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+
+# Test Artifacts
+test_data/
+mock_data/
+fixtures/
+
+# ===========================================
+# 📚 Documentation Build
+# ===========================================
+
+# Generated Documentation
+docs/_build/
+docs/build/
+site/
+_site/
+
+# Jekyll
+.jekyll-cache/
+.jekyll-metadata
+
+# ===========================================
+# 🌐 Web Assets (if applicable)
+# ===========================================
+
+# Dependency Directories
+bower_components/
+jspm_packages/
+
+# Production Builds
+build/
+public/build/
+static/build/
+
+# ===========================================
+# 🔧 Configuration Files
+# ===========================================
+
+# Local Configuration
+local.config
+*.local
+.env.local
+
+# User-Specific Settings
+user.settings
+personal.config
+
+# ===========================================
+# 📦 Archives & Downloads
+# ===========================================
+
+# Archive Files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# Download Cache
+downloads/
+cache/
+*.download
+
+# ===========================================
+# 🎨 Media & Assets (Large Files)
+# ===========================================
+
+# Large Media Files (use Git LFS instead)
+*.mov
+*.avi
+*.mkv
+*.mp4
+*.webm
+*.psd
+*.ai
+*.sketch
+
+# Audio Files
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# ===========================================
+# 🚀 Deployment & Infrastructure
+# ===========================================
+
+# Docker
+.dockerignore
+Dockerfile.local
+
+# Kubernetes
+*.local.yaml
+*.local.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# ===========================================
+# 🎯 Project-Specific Ignores
+# ===========================================
+
+# Setup Assistant Specific
+setup_temp/
+installation_logs/
+user_configs/
+extracted_games/
+
+# Custom Tools
+tools/private/
+scripts/local/
+automation/secrets/
+
+# Language Packs (if generated)
+translations/generated/
+localization/build/
+
+# ===========================================
+# 📝 Notes & Documentation Drafts
+# ===========================================
+
+# Personal Notes
+NOTES.md
+TODO.md
+SCRATCH.md
+notes/
+drafts/
+
+# Meeting Notes
+meetings/
+planning/
+
+# ===========================================
+# 🔍 Search & Index Files
+# ===========================================
+
+# Search Indexes
+.index/
+search_index/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================================
+# 🎪 Miscellaneous
+# ===========================================
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Patch Files
+*.patch
+*.diff
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Lock Files
+*.lock
+
+# ===========================================
+# ✅ ALWAYS ALLOW (Override above rules)
+# ===========================================
+
+# Important Config Templates
+!.internal/GITHUB_CREDENTIALS.template.md
+!config/default.config
+!templates/
+
+# Documentation Assets (small ones)
+!docs/images/*.png
+!docs/images/*.jpg
+!docs/images/*.gif
+!assets/icons/
+!assets/logos/
+
+# Sample Files
+!samples/
+!examples/
+
+# GitHub Actions (important for CI/CD)
+!.github/
+
+# ===========================================
+# 📋 END OF FILE
+# ===========================================
+
+# Last updated: December 2024
+# For SpongeBob: Krusty Cook-Off Setup Assistant
+# 🍔 Keep Bikini Bottom clean! 🧽 .internal/GITHUB_CREDENTIALS.md
+.internal/

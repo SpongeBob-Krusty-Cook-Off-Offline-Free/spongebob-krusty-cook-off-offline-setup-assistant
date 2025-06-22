@@ -1,0 +1,30 @@
+# 🍔 SpongeBob Setup Assistant - Funding Configuration
+
+# These are supported funding model platforms
+
+# GitHub Sponsors
+github: # SpongeBob-Krusty-Cook-Off-Offline-Free
+
+# Open Collective
+open_collective: # spongebob-setup-assistant
+
+# Ko-fi
+ko_fi: # spongebobsetup
+
+# Tidelift
+# tidelift: # npm/babel-preset-env
+
+# Community Bridge
+# community_bridge: # cloud-foundry
+
+# Liberapay
+# liberapay: # user
+
+# IssueHunt
+# issuehunt: # user
+
+# Other platforms
+patreon: # spongebobsetup
+custom: # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
+  - "https://paypal.me/spongebobsetup"
+ 

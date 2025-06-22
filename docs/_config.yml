@@ -1,0 +1,240 @@
+# 🧽 SpongeBob: Krusty Cook-Off Setup Assistant - GitHub Pages Configuration
+
+# Site settings
+title: "SpongeBob: Krusty Cook-Off Setup Assistant"
+email: support@spongebob-krusty-cook-off-free.com
+description: >-
+  The ultimate offline setup assistant for SpongeBob: Krusty Cook-Off. 
+  Play the complete game offline with no internet required, no account needed, 
+  and no in-app purchases. Experience Bikini Bottom cooking adventure today!
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://spongebob-krusty-cook-off-offline-free.github.io" # the base hostname & protocol for your site
+
+# Repository information
+repository: SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant
+github_username: SpongeBob-Krusty-Cook-Off-Offline-Free
+
+# SEO & Social
+author: SpongeBob Krusty Cook-Off Community
+twitter_username: SpongeBobCookOff
+facebook_username: SpongeBobCookOff
+linkedin_username: spongebob-krusty-cook-off
+
+# Logo and branding
+logo: "/assets/images/logo.png"
+favicon: "/assets/images/favicon.ico"
+
+# Theme
+theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-default-layout
+
+# Plugin configurations
+feed:
+  categories:
+    - updates
+    - releases
+    - tutorials
+
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# SEO plugin configuration
+social:
+  name: SpongeBob Krusty Cook-Off Setup Assistant
+  links:
+    - https://twitter.com/SpongeBobCookOff
+    - https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free
+    - https://discord.gg/spongebob-cooking
+    - https://youtube.com/c/spongebobcookoff
+
+# Google Analytics (if needed)
+google_analytics: # Add your GA tracking ID here if needed
+
+# Site navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Download
+    url: https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant/releases/latest
+  - title: Installation
+    url: /installation
+  - title: Documentation
+    url: /docs
+  - title: FAQ
+    url: /faq
+  - title: Support
+    url: /support
+  - title: Community
+    url: https://discord.gg/spongebob-cooking
+
+# Footer links
+footer_links:
+  - title: GitHub
+    url: https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant
+    icon: github
+  - title: Discord
+    url: https://discord.gg/spongebob-cooking
+    icon: discord
+  - title: YouTube
+    url: https://youtube.com/c/spongebobcookoff
+    icon: youtube
+  - title: Email
+    url: mailto:support@spongebob-krusty-cook-off-free.com
+    icon: email
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Include/Exclude files
+include:
+  - _pages
+  - _docs
+  - .htaccess
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .internal/
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "SpongeBob Community"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+
+# Custom variables
+project:
+  name: "SpongeBob: Krusty Cook-Off Setup Assistant"
+  version: "2.1.0"
+  description: "Offline setup assistant for SpongeBob: Krusty Cook-Off game"
+  keywords: 
+    - spongebob
+    - krusty cook-off
+    - offline game
+    - setup assistant
+    - cooking game
+    - bikini bottom
+    - no internet required
+    - free game
+    - family friendly
+    - time management
+  download_url: "https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant/releases/latest"
+  
+# Gaming-specific metadata
+game:
+  title: "SpongeBob: Krusty Cook-Off"
+  genre: "Time Management / Cooking"
+  platform: "PC, Mac, Linux"
+  rating: "E for Everyone"
+  features:
+    - "Offline gameplay"
+    - "No in-app purchases"
+    - "Family-friendly content"
+    - "Cross-platform support"
+    - "Controller support"
+    - "Multi-language"
+
+# Contact information
+contact:
+  email: support@spongebob-krusty-cook-off-free.com
+  discord: https://discord.gg/spongebob-cooking
+  github: https://github.com/SpongeBob-Krusty-Cook-Off-Offline-Free/spongebob-krusty-cook-off-offline-setup-assistant
+  youtube: https://youtube.com/c/spongebobcookoff
+
+# Legal
+legal:
+  license: "MIT License"
+  disclaimer: "This is an unofficial setup assistant. SpongeBob SquarePants is a trademark of Viacom International Inc."
+  privacy_policy: "/privacy"
+  terms_of_service: "/terms"
+
+# Performance
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: development
+
+# Timezone
+timezone: UTC
+
+# Encoding
+encoding: "utf-8"
+
+# Liquid
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+# Sass
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - node_modules
+
+# Archive pages
+archive:
+  enabled: true
+  layout: archive
+  permalinks:
+    year: "/archive/:year/"
+    month: "/archive/:year/:month/"
+    day: "/archive/:year/:month/:day/"
+
+# Related posts
+lsi: false
+safe: true
+source: .
+destination: ./_site
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+  
+# GitHub Pages specific settings
+github: [metadata] 
